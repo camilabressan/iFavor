@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900B83391DD1308E00745333 /* MyServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900B83381DD1308E00745333 /* MyServicesViewController.swift */; };
 		9079F9501DB09D3700EF2D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F94F1DB09D3700EF2D6D /* AppDelegate.swift */; };
 		9079F9521DB09D3700EF2D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9511DB09D3700EF2D6D /* ViewController.swift */; };
-		9079F9551DB09D3700EF2D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079F9531DB09D3700EF2D6D /* Main.storyboard */; };
-		9079F9581DB09D3700EF2D6D /* iFavor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9561DB09D3700EF2D6D /* iFavor.xcdatamodeld */; };
 		9079F95A1DB09D3700EF2D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9079F9591DB09D3700EF2D6D /* Assets.xcassets */; };
 		9079F95D1DB09D3700EF2D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079F95B1DB09D3700EF2D6D /* LaunchScreen.storyboard */; };
 		9079F9681DB09D3700EF2D6D /* iFavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9671DB09D3700EF2D6D /* iFavorTests.swift */; };
 		9079F9731DB09D3700EF2D6D /* iFavorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9721DB09D3700EF2D6D /* iFavorUITests.swift */; };
+		9079F9831DB1103200EF2D6D /* Sigleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9821DB1103200EF2D6D /* Sigleton.swift */; };
+		9079F9851DB1115900EF2D6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9841DB1115900EF2D6D /* User.swift */; };
+		9079F9871DB1134800EF2D6D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9861DB1134800EF2D6D /* Services.swift */; };
+		9079F9891DB1911900EF2D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079F9881DB1911900EF2D6D /* Main.storyboard */; };
+		9079F98C1DB4063100EF2D6D /* ServiceDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F98B1DB4063100EF2D6D /* ServiceDetailsTableViewCell.swift */; };
+		9079F9941DB95ABA00EF2D6D /* DetailsServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9931DB95ABA00EF2D6D /* DetailsServiceViewController.swift */; };
+		9079F9961DC52A2700EF2D6D /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9951DC52A2700EF2D6D /* Comments.swift */; };
+		9079F9981DC52E9C00EF2D6D /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079F9971DC52E9C00EF2D6D /* CommentsTableViewCell.swift */; };
+		90DBF4AB1DDD081300B51EA3 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 90DF86D21DDB3FFB00AFFE1E /* LoginViewController.h */; };
+		90DF86D51DDB3FFB00AFFE1E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DF86D31DDB3FFB00AFFE1E /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		900B83381DD1308E00745333 /* MyServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesViewController.swift; sourceTree = "<group>"; };
 		9079F94C1DB09D3700EF2D6D /* iFavor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFavor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9079F94F1DB09D3700EF2D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9079F9511DB09D3700EF2D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9079F9541DB09D3700EF2D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9079F9571DB09D3700EF2D6D /* iFavor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFavor.xcdatamodel; sourceTree = "<group>"; };
+		9079F9511DB09D3700EF2D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = iFavor/ViewController.swift; sourceTree = "<group>"; };
 		9079F9591DB09D3700EF2D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9079F95C1DB09D3700EF2D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9079F95E1DB09D3700EF2D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,17 @@
 		9079F96E1DB09D3700EF2D6D /* iFavorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFavorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9079F9721DB09D3700EF2D6D /* iFavorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFavorUITests.swift; sourceTree = "<group>"; };
 		9079F9741DB09D3700EF2D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9079F9821DB1103200EF2D6D /* Sigleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sigleton.swift; sourceTree = "<group>"; };
+		9079F9841DB1115900EF2D6D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9079F9861DB1134800EF2D6D /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		9079F9881DB1911900EF2D6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		9079F98B1DB4063100EF2D6D /* ServiceDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceDetailsTableViewCell.swift; path = ../ServiceDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9079F9931DB95ABA00EF2D6D /* DetailsServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsServiceViewController.swift; sourceTree = "<group>"; };
+		9079F9951DC52A2700EF2D6D /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		9079F9971DC52E9C00EF2D6D /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		90DF86D11DDB3FFB00AFFE1E /* iFavor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFavor-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		90DF86D21DDB3FFB00AFFE1E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		90DF86D31DDB3FFB00AFFE1E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +98,7 @@
 		9079F9431DB09D3700EF2D6D = {
 			isa = PBXGroup;
 			children = (
+				9079F98A1DB3FA8C00EF2D6D /* Controllers */,
 				9079F94E1DB09D3700EF2D6D /* iFavor */,
 				9079F9661DB09D3700EF2D6D /* iFavorTests */,
 				9079F9711DB09D3700EF2D6D /* iFavorUITests */,
@@ -99,13 +119,18 @@
 		9079F94E1DB09D3700EF2D6D /* iFavor */ = {
 			isa = PBXGroup;
 			children = (
+				90DF86D11DDB3FFB00AFFE1E /* iFavor-Bridging-Header.h */,
+				9079F98B1DB4063100EF2D6D /* ServiceDetailsTableViewCell.swift */,
+				9079F9971DC52E9C00EF2D6D /* CommentsTableViewCell.swift */,
 				9079F94F1DB09D3700EF2D6D /* AppDelegate.swift */,
-				9079F9511DB09D3700EF2D6D /* ViewController.swift */,
-				9079F9531DB09D3700EF2D6D /* Main.storyboard */,
+				9079F9881DB1911900EF2D6D /* Main.storyboard */,
 				9079F9591DB09D3700EF2D6D /* Assets.xcassets */,
 				9079F95B1DB09D3700EF2D6D /* LaunchScreen.storyboard */,
 				9079F95E1DB09D3700EF2D6D /* Info.plist */,
-				9079F9561DB09D3700EF2D6D /* iFavor.xcdatamodeld */,
+				9079F9821DB1103200EF2D6D /* Sigleton.swift */,
+				9079F9841DB1115900EF2D6D /* User.swift */,
+				9079F9861DB1134800EF2D6D /* Services.swift */,
+				9079F9951DC52A2700EF2D6D /* Comments.swift */,
 			);
 			path = iFavor;
 			sourceTree = "<group>";
@@ -126,6 +151,18 @@
 				9079F9741DB09D3700EF2D6D /* Info.plist */,
 			);
 			path = iFavorUITests;
+			sourceTree = "<group>";
+		};
+		9079F98A1DB3FA8C00EF2D6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9079F9511DB09D3700EF2D6D /* ViewController.swift */,
+				9079F9931DB95ABA00EF2D6D /* DetailsServiceViewController.swift */,
+				900B83381DD1308E00745333 /* MyServicesViewController.swift */,
+				90DF86D21DDB3FFB00AFFE1E /* LoginViewController.h */,
+				90DF86D31DDB3FFB00AFFE1E /* LoginViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +271,7 @@
 			files = (
 				9079F95D1DB09D3700EF2D6D /* LaunchScreen.storyboard in Resources */,
 				9079F95A1DB09D3700EF2D6D /* Assets.xcassets in Resources */,
-				9079F9551DB09D3700EF2D6D /* Main.storyboard in Resources */,
+				9079F9891DB1911900EF2D6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9079F9581DB09D3700EF2D6D /* iFavor.xcdatamodeld in Sources */,
+				90DBF4AB1DDD081300B51EA3 /* LoginViewController.h in Sources */,
+				9079F9871DB1134800EF2D6D /* Services.swift in Sources */,
 				9079F9521DB09D3700EF2D6D /* ViewController.swift in Sources */,
+				900B83391DD1308E00745333 /* MyServicesViewController.swift in Sources */,
+				9079F9851DB1115900EF2D6D /* User.swift in Sources */,
+				9079F9831DB1103200EF2D6D /* Sigleton.swift in Sources */,
+				9079F9941DB95ABA00EF2D6D /* DetailsServiceViewController.swift in Sources */,
+				9079F98C1DB4063100EF2D6D /* ServiceDetailsTableViewCell.swift in Sources */,
 				9079F9501DB09D3700EF2D6D /* AppDelegate.swift in Sources */,
+				9079F9981DC52E9C00EF2D6D /* CommentsTableViewCell.swift in Sources */,
+				90DF86D51DDB3FFB00AFFE1E /* LoginViewController.m in Sources */,
+				9079F9961DC52A2700EF2D6D /* Comments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +343,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9079F9531DB09D3700EF2D6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9079F9541DB09D3700EF2D6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9079F95B1DB09D3700EF2D6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,10 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iFavor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = camilabressan.iFavor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iFavor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,10 +458,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iFavor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = camilabressan.iFavor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iFavor-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +533,7 @@
 				9079F9791DB09D3700EF2D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9079F97A1DB09D3700EF2D6D /* Build configuration list for PBXNativeTarget "iFavorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +542,7 @@
 				9079F97C1DB09D3700EF2D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9079F97D1DB09D3700EF2D6D /* Build configuration list for PBXNativeTarget "iFavorUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,21 +551,9 @@
 				9079F97F1DB09D3700EF2D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9079F9561DB09D3700EF2D6D /* iFavor.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9079F9571DB09D3700EF2D6D /* iFavor.xcdatamodel */,
-			);
-			currentVersion = 9079F9571DB09D3700EF2D6D /* iFavor.xcdatamodel */;
-			path = iFavor.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9079F9441DB09D3700EF2D6D /* Project object */;
 }
